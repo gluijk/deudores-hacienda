@@ -103,9 +103,9 @@ maximo=max(numeros)
 
 numeros2=numeros
 numeros2[numeros2>10e6]=10e6  # group >10 million € debtors
-png("hist_deudores.png", width=610, height=400)
+png("hist_deudores2.png", width=610, height=400)
     hist(numeros2/1000000, breaks=800, xlim=c(0,10), xlab='Debt (million €)',
-         border=NA, axes=FALSE, col=rgb(0,0,1),
+         border=NA, axes=FALSE, col='lightblue',
          main=paste0('Distr. Tax Agency (Hacienda) debtors - 2024\n',
                       '(min=', round(minimo/1e6,1),
                       ', med=', round(mediana/1e6,1),
