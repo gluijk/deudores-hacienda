@@ -1,6 +1,6 @@
 # Reading and analyzing the Tax Agency (Hacienda) debtors file 2024
 # www.overfitting.net
-# https://www.overfitting.net/
+# https://www.overfitting.net/2025/08/analisis-del-fichero-de-morosos-de.html
 
 library(pdftools)  # pdf_info(), pdf_render_page()
 library(tesseract)  # tesseract(), ocr()
